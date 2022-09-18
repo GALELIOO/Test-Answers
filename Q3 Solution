@@ -4,7 +4,7 @@ class Solution:
             return self.findMedianSortedArrays(nums2, nums1)
         array_1 = nums1
         array_2 = nums2
-        start = 0
+        start = 0             #keeps track of the start and end position of our list 1
         end = len(array_1)
         X = len(array_1)
         Y = len(array_2)
